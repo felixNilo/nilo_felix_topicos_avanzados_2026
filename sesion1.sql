@@ -12,6 +12,7 @@ CREATE USER curso_topicos IDENTIFIED BY curso2025;
 -- Otorgar privilegios necesarios al usuario
 GRANT CONNECT, RESOURCE, CREATE SESSION TO curso_topicos;
 GRANT CREATE TABLE, CREATE TYPE, CREATE PROCEDURE TO curso_topicos;
+GRANT CREATE ANY TRIGGER TO curso_topicos;
 GRANT UNLIMITED TABLESPACE TO curso_topicos;
 
 -- Confirmar creación

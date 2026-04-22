@@ -48,12 +48,12 @@ Una vez dentro deberiamos ver: `bash-4.2$ ` junto con el cursor para poder ingre
 
 Ahora, conectemonos a la base de datos usando `sqlplus`
 
-`sqlplus sys/oracle@//localhost:1521/XE as sysdba`
+`sqlplus curso_topicos/curso2025@//localhost:1521/XEPDB1`
 
 Aqui utilizamos:
-* Username: `sys`
-* Password: `oracle` (o lo que hayamos configurado en la variable de entorno `ORACLE_PWD` de docker-compose.yml)
-* SID: `XE`
+* Username: `curso_topicos`
+* Password: `curso2025`
+* PDB: `XEPDB1`
 
 Si la conexion es exitosa, veremos el prompt de SQL:
 
@@ -61,7 +61,7 @@ Si la conexion es exitosa, veremos el prompt de SQL:
 
 Intenta correr una query simple para testear:
 
-`SELECT * FROM PRODUCTOS;`
+`SELECT * FROM Clientes;`
 
 ### Wrap up
 
@@ -224,5 +224,17 @@ Santiago                                           10-MAR-95
 SQL> 
 ```
 
+
+### Paso a Paso para preparar entorno de Prueba 1.
+
+1. Levante el contenedor mediante `docker-compose up --build`
+2. Una vez que el contenedor se ejecute correctamente, en otra consola copie el script de prueba 1 sobre el contenedor:
+`docker cp prueba_1.sql oracle_db_course:/tmp/prueba_1.sql`
+3. Ingrese al contenedor:
+`docker-compose exec oracle-db bash`
+4. Conectese a la base de datos:
+`sqlplus curso_topicos/curso2025@//localhost:1521/XEPDB1`
+5. Ejecute el script que copiamos en el contenedor en el paso 2.
+`@/tmp/prueba_1.sql`
 
 
