@@ -3,7 +3,7 @@
 ## Resumen
 - **Total de repositorios:** 20
 - **Entregas encontradas:** 19
-- **Sin entrega:** 1 (Javier Carrasco)
+- **Entregas tardías:** 1 (Javier Carrasco - con autorización, tope nota 4.0)
 - **Corte de aprobación:** 50/100
 
 ## Archivos de Retroalimentación
@@ -28,10 +28,11 @@
 | Iván Velásquez | [velasquez_ivan.md](velasquez_ivan.md) |
 | Javier Vera | [vera_javier.md](vera_javier.md) |
 | Mario Yáñez | [yanez_mario.md](yanez_mario.md) |
+| Javier Carrasco | [carrasco_javier.md](carrasco_javier.md) |
 | Martín Zepeda | [zepeda_martin.md](zepeda_martin.md) |
 
 ## Notas sobre archivos de entrega
 - Cantuarias: `prueba1.txt` (teórica) + `prueba1.2.sql` (práctica)
 - Yáñez: `repositorio/prueba_1.sql` + `prueba_parte_2.1.sql`
 - Olivares: archivo sin extensión `.sql` (`prueba 1_sql`)
-- **Carrasco: no tiene archivo de prueba en su repositorio**
+- Carrasco: `prueba1.sql` (entrega tardía con autorización, nota con tope 4.0)

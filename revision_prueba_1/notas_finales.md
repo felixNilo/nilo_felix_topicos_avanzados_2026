@@ -23,11 +23,11 @@
 | 17 | Javier Vera | 20/100 | 2.2 | Reprobado |
 | 18 | Diego Cortés | 16/100 | 2.0 | Reprobado |
 | 19 | Mario Yáñez | 12/100 | 1.7 | Reprobado |
-| 20 | Javier Carrasco | 0/100 | 1.0 | No entregó |
+| 20 | Javier Carrasco | 70/100 | 3.1* | ❌ Reprobado |
 
 ## Estadísticas
-- **Promedio puntaje:** 42.1/100
-- **Promedio nota:** 3.5
+- **Promedio puntaje:** 45.6/100
+- **Promedio nota:** 3.6
 - **Nota más alta:** 6.2 (Johann Cortés, Matías Olivares)
 - **Nota más baja (con entrega):** 1.7 (Mario Yáñez)
 - **Aprobados (≥4.0):** 7 de 20 (35%)
@@ -36,3 +36,6 @@
 ## Fórmula de conversión
 - **0 a 49 pts:** Nota = 1.0 + (puntaje / 50) × 3.0
 - **50 a 100 pts:** Nota = 4.0 + ((puntaje - 50) / 50) × 3.0
+
+## Observaciones
+- **(\*) Javier Carrasco:** Entrega fuera de plazo con autorización. Puntaje real obtenido: **70/100**. Se aplica escala comprimida (nota máxima 4.0): Nota = 1.0 + (puntaje/100) × 3.0 = **3.1**. Sin penalización, la nota habría sido 5.2.
