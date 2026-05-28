@@ -238,3 +238,18 @@ SQL>
 `@/tmp/prueba_1.sql`
 
 
+### Paso a Paso para preparar entorno de Prueba 2.
+
+1. Levante el contenedor mediante `docker-compose up --build`
+2. Una vez que el contenedor se ejecute correctamente, en otra consola copie el script de prueba 2 sobre el contenedor:
+`docker cp prueba_2.sql oracle_db_course:/tmp/prueba_2.sql`
+3. Ingrese al contenedor:
+`docker-compose exec oracle-db bash`
+4. Conectese a la base de datos:
+`sqlplus curso_topicos/curso2025@//localhost:1521/XEPDB1`
+5. Ejecute el script que copiamos en el contenedor en el paso 2.
+`@/tmp/prueba_2.sql`
+
+**Nota:** El script de la prueba 2 usa el mismo esquema de tablas que la prueba 1 (Agentes, Incidentes, Asignaciones). Si ya ejecutó el script de la prueba 1, el script de la prueba 2 eliminará y recreará las tablas con los mismos datos.
+
+
