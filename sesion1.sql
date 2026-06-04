@@ -135,3 +135,14 @@ SELECT * FROM DetallesPedidos;
 
 -- Commit final
 COMMIT;
+
+-- Crear un rol para analistas de datos (solo lectura)
+CREATE ROLE rol_analista;
+
+-- Asignar permisos de lectura sobre las tablas del esquema
+GRANT SELECT ON curso_topicos.Clientes TO rol_analista;
+GRANT SELECT ON curso_topicos.Pedidos TO rol_analista;
+
+
+-- Verificar roles creados
+SELECT role FROM dba_roles WHERE role IN ('ROL_ANALISTA');
