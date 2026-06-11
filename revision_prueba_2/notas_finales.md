@@ -23,15 +23,15 @@
 | 17 | Diego Cortés | 65/100 | 4.9 | ✅ Aprobado |
 | 18 | Matías Valencia | 58/100 | 4.5 | ✅ Aprobado |
 | 19 | Máximo Godoy | 56/100 | 4.4 | ✅ Aprobado |
-| 20 | Matías Olivares | 0/100 | 1.0 | ❌ No entregó |
+| 20 | Matías Olivares | 90/100* | 6.5* | ✅ Aprobado |
 
 ## Estadísticas
-- **Promedio puntaje (con entrega):** 81.5/100
-- **Promedio nota (con entrega):** 5.9
+- **Promedio puntaje:** 82.0/100
+- **Promedio nota:** 5.9
 - **Nota más alta:** 7.0 (Johann Cortés)
-- **Nota más baja (con entrega):** 4.4 (Máximo Godoy)
-- **Aprobados (≥4.0):** 19 de 20 (95%)
-- **Reprobados:** 1 de 20 (5%) - solo Olivares por no entregar
+- **Nota más baja:** 4.4 (Máximo Godoy)
+- **Aprobados (≥4.0):** 20 de 20 (100%)
+- **Reprobados:** 0
 
 ## Fórmula de conversión
 - **0 a 49 pts:** Nota = 1.0 + (puntaje / 50) × 3.0
@@ -42,7 +42,7 @@
 | Estudiante | Nota P1 | Nota P2 | Diferencia |
 |-----------|---------|---------|------------|
 | Johann Cortés | 6.2 | 7.0 | +0.8 |
-| Matías Olivares | 6.2 | 1.0 | -5.2 (no entregó) |
+| Matías Olivares | 6.2 | 6.5* | +0.3 |
 | Iván Velásquez | 5.9 | 6.8 | +0.9 |
 | Martín Zepeda | 4.7 | 6.5 | +1.8 |
 | Cristian Vega | 4.7 | 6.6 | +1.9 |
@@ -65,6 +65,6 @@
 *Nota: Carrasco tuvo tope de nota en P1 por entrega tardía.
 
 ## Observaciones
-- **Matías Olivares** no entregó la prueba 2.
+- **(\*) Matías Olivares:** Rindió prueba recuperativa con mayor dificultad y exigencia al 40%. Puntaje obtenido: 90/100. Nota con fórmula recuperativa: 6.5.
 - Mejora generalizada del curso: promedio subió de 3.6 (P1) a 5.9 (P2).
-- 19 de 20 estudiantes aprobaron (vs 7 de 20 en P1).
+- **Todos los estudiantes aprobaron** la prueba 2 (20 de 20, vs 7 de 20 en P1).
